@@ -1,0 +1,120 @@
+<!-- views/results.ejs -->
+<div class="row mb-4">
+  <div class="col-12">
+    <!-- Results Header -->
+    <div class="d-flex justify-content-between align-items-center mb-4">
+      <div>
+        <h2><%= username %>'s Repositories</h2>
+        <p class="text-muted">
+          Found <strong><%= repoCount %></strong> repos updated in the last 6 months
+          <br>
+          <small>Sorted by: <strong><%= sortBy === 'stars' ? '⭐ Stars' : sortBy === 'forks' ? '🍴 Forks' : '📅 Recently Updated' %></strong></small>
+        </p>
+      </div>
+      <div>
+        <a href="/" class="btn btn-secondary me-2">← New Search</a>
+        <button 
+          type="button" 
+          class="btn btn-success" 
+          id="downloadBtn"
+          onclick="downloadCSV()"
+        >
+          📥 Download CSV
+        </button>
+      </div>
+    </div>
+
+    <!-- No Results Message -->
+    <% if (repoCount === 0) { %>
+      <div class="alert alert-warning" role="alert">
+        <h5 class="alert-heading">⚠️ No repos found</h5>
+        <p class="mb-0">There are no public repositories for <strong><%= username %></strong> updated in the last 6 months.</p>
+        <a href="/" class="btn btn-primary btn-sm mt-3">← Try Another Username</a>
+      </div>
+    <% } else { %>
+      <!-- Repos Table -->
+      <div class="table-responsive">
+        <table class="table table-hover table-striped">
+          <thead class="table-dark">
+            <tr>
+              <th>Repository Name</th>
+              <th>Language</th>
+              <th>⭐ Stars</th>
+              <th>🍴 Forks</th>
+              <th>Last Updated</th>
+              <th>Action</th>
+            </tr>
+          </thead>
+          <tbody>
+            <% repos.forEach((repo) => { %>
+              <tr>
+                <td>
+                  <a href="<%= repo.url %>" target="_blank" rel="noopener noreferrer">
+                    <strong><%= repo.name %></strong>
+                  </a>
+                  <br>
+                  <small class="text-muted"><%= repo.description.substring(0, 80) %>...</small>
+                </td>
+                <td>
+                  <span class="badge bg-secondary"><%= repo.language %></span>
+                </td>
+                <td><strong><%= repo.stars %></strong></td>
+                <td><strong><%= repo.forks %></strong></td>
+                <td><small><%= repo.updated %></small></td>
+                <td>
+                  <a 
+                    href="<%= repo.url %>/tree/main" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="btn btn-sm btn-outline-primary"
+                  >
+                    View
+                  </a>
+                </td>
+              </tr>
+            <% }); %>
+          </tbody>
+        </table>
+      </div>
+    <% } %>
+  </div>
+</div>
+
+<!-- Hidden Form for CSV Download (uses Base64 encoded repos) -->
+<form id="downloadForm" method="POST" action="/repos/download-csv" style="display: none;">
+  <input type="hidden" name="username" id="formUsername">
+  <input type="hidden" name="sortBy" id="formSortBy">
+  <input type="hidden" name="repos" id="formRepos">
+</form>
+
+<script>
+  /**
+   * Submits form to download CSV
+   * Uses Base64 encoded repos for safe transmission
+   */
+  function downloadCSV() {
+    try {
+      // Get Base64 encoded repos from EJS variable
+      const reposBase64 = '<%= reposBase64 %>';
+      
+      if (!reposBase64) {
+        alert('Error: Repos data not available.');
+        return;
+      }
+
+      // Populate hidden form fields
+      document.getElementById('formUsername').value = '<%= username %>';
+      document.getElementById('formSortBy').value = '<%= sortBy %>';
+      document.getElementById('formRepos').value = reposBase64;
+      
+      console.log('✓ CSV download initiated');
+      
+      // Submit form (triggers file download)
+      document.getElementById('downloadForm').submit();
+      
+    } catch (error) {
+      console.error('Error preparing CSV download:', error);
+      alert('Error preparing CSV. Please try again.');
+    }
+  }
+</script>

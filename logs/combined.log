@@ -1,0 +1,229 @@
+2025-12-04 19:14:46 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 19:18:37 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 19:19:40 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 19:19:40 [[32MINFO[39M] ✓ Server running on http://localhost:3000
+2025-12-04 19:19:40 [[32MINFO[39M] ✓ Environment: development
+2025-12-04 19:19:40 [[32MINFO[39M] GET /
+2025-12-04 19:19:40 [[32MINFO[39M] GET /favicon.ico
+2025-12-04 19:19:44 [[32MINFO[39M] GET /
+2025-12-04 19:21:59 [[32MINFO[39M] GET /
+2025-12-04 19:22:00 [[32MINFO[39M] GET /
+2025-12-04 19:22:14 [[32MINFO[39M] GET /
+2025-12-04 19:23:14 [[32MINFO[39M] GET /
+2025-12-04 19:23:16 [[32MINFO[39M] GET /
+2025-12-04 19:24:55 [[32MINFO[39M] GET /
+2025-12-04 19:24:56 [[32MINFO[39M] GET /
+2025-12-04 19:24:56 [[32MINFO[39M] GET /
+2025-12-04 19:24:57 [[32MINFO[39M] GET /
+2025-12-04 19:24:57 [[32MINFO[39M] GET /
+2025-12-04 19:24:57 [[32MINFO[39M] GET /
+2025-12-04 19:24:58 [[32MINFO[39M] GET /
+2025-12-04 19:27:16 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 19:27:16 [[32MINFO[39M] ✓ Server running on http://localhost:3000
+2025-12-04 19:27:16 [[32MINFO[39M] ✓ Environment: development
+2025-12-04 19:27:51 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 19:27:51 [[32MINFO[39M] ✓ Server running on http://localhost:3000
+2025-12-04 19:27:51 [[32MINFO[39M] ✓ Environment: development
+2025-12-04 19:28:12 [[32MINFO[39M] GET /
+2025-12-04 19:28:43 [[32MINFO[39M] POST /repos/fetch
+2025-12-04 19:28:43 [[32MINFO[39M] Fetching repos for: PrajwalLad, Sort: default
+2025-12-04 19:28:43 [[32MINFO[39M] Fetching repos for PrajwalLad...
+2025-12-04 19:28:44 [[34MDEBUG[39M] Page 1: Fetched 14 repos
+2025-12-04 19:28:44 [[34MDEBUG[39M] Link header: None
+2025-12-04 19:28:44 [[32MINFO[39M] ✓ Fetched 11 repos updated in last 6 months
+2025-12-04 19:31:18 [[32MINFO[39M] POST /repos/fetch
+2025-12-04 19:31:18 [[32MINFO[39M] Fetching repos for: MayurBabbe45, Sort: default
+2025-12-04 19:31:18 [[32MINFO[39M] Fetching repos for MayurBabbe45...
+2025-12-04 19:31:19 [[34MDEBUG[39M] Page 1: Fetched 30 repos
+2025-12-04 19:31:19 [[34MDEBUG[39M] Link header: <https://api.github.com/user/73131371/repos?per_page=30&page=2&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/73131371/repos?per_page=30&page=2&sort=updated&direction=desc>; rel="last"
+2025-12-04 19:31:19 [[34MDEBUG[39M] Page 2: Fetched 5 repos
+2025-12-04 19:31:19 [[34MDEBUG[39M] Link header: <https://api.github.com/user/73131371/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/73131371/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:31:19 [[32MINFO[39M] ✓ Fetched 6 repos updated in last 6 months
+2025-12-04 19:31:40 [[32MINFO[39M] GET /repos/search
+2025-12-04 19:31:43 [[32MINFO[39M] GET /
+2025-12-04 19:31:44 [[32MINFO[39M] GET /
+2025-12-04 19:32:07 [[32MINFO[39M] POST /repos/fetch
+2025-12-04 19:32:07 [[32MINFO[39M] Fetching repos for: facebook, Sort: default
+2025-12-04 19:32:07 [[32MINFO[39M] Fetching repos for facebook...
+2025-12-04 19:32:08 [[34MDEBUG[39M] Page 1: Fetched 30 repos
+2025-12-04 19:32:08 [[34MDEBUG[39M] Link header: <https://api.github.com/user/69631/repos?per_page=30&page=2&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/69631/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="last"
+2025-12-04 19:32:08 [[34MDEBUG[39M] Page 2: Fetched 30 repos
+2025-12-04 19:32:08 [[34MDEBUG[39M] Link header: <https://api.github.com/user/69631/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/69631/repos?per_page=30&page=3&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/69631/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/69631/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:32:09 [[34MDEBUG[39M] Page 3: Fetched 30 repos
+2025-12-04 19:32:09 [[34MDEBUG[39M] Link header: <https://api.github.com/user/69631/repos?per_page=30&page=2&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/69631/repos?per_page=30&page=4&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/69631/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/69631/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:32:10 [[34MDEBUG[39M] Page 4: Fetched 30 repos
+2025-12-04 19:32:10 [[34MDEBUG[39M] Link header: <https://api.github.com/user/69631/repos?per_page=30&page=3&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/69631/repos?per_page=30&page=5&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/69631/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/69631/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:32:11 [[34MDEBUG[39M] Page 5: Fetched 30 repos
+2025-12-04 19:32:11 [[34MDEBUG[39M] Link header: <https://api.github.com/user/69631/repos?per_page=30&page=4&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/69631/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/69631/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/69631/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:32:11 [[34MDEBUG[39M] Page 6: Fetched 7 repos
+2025-12-04 19:32:11 [[34MDEBUG[39M] Link header: <https://api.github.com/user/69631/repos?per_page=30&page=5&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/69631/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:32:11 [[32MINFO[39M] ✓ Fetched 148 repos updated in last 6 months
+2025-12-04 19:34:27 [[32MINFO[39M] GET /.well-known/appspecific/com.chrome.devtools.json
+2025-12-04 19:36:45 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 19:36:45 [[32MINFO[39M] ✓ Server running on http://localhost:3000
+2025-12-04 19:36:45 [[32MINFO[39M] ✓ Environment: development
+2025-12-04 19:37:34 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 19:37:34 [[32MINFO[39M] ✓ Server running on http://localhost:3000
+2025-12-04 19:37:34 [[32MINFO[39M] ✓ Environment: development
+2025-12-04 19:37:53 [[32MINFO[39M] POST /repos/fetch
+2025-12-04 19:37:53 [[32MINFO[39M] Fetching repos for: facebook, Sort: default
+2025-12-04 19:37:53 [[32MINFO[39M] Fetching repos for facebook...
+2025-12-04 19:37:54 [[34MDEBUG[39M] Page 1: Fetched 30 repos
+2025-12-04 19:37:54 [[34MDEBUG[39M] Link header: <https://api.github.com/user/69631/repos?per_page=30&page=2&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/69631/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="last"
+2025-12-04 19:37:55 [[34MDEBUG[39M] Page 2: Fetched 30 repos
+2025-12-04 19:37:55 [[34MDEBUG[39M] Link header: <https://api.github.com/user/69631/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/69631/repos?per_page=30&page=3&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/69631/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/69631/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:37:56 [[34MDEBUG[39M] Page 3: Fetched 30 repos
+2025-12-04 19:37:56 [[34MDEBUG[39M] Link header: <https://api.github.com/user/69631/repos?per_page=30&page=2&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/69631/repos?per_page=30&page=4&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/69631/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/69631/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:37:57 [[34MDEBUG[39M] Page 4: Fetched 30 repos
+2025-12-04 19:37:57 [[34MDEBUG[39M] Link header: <https://api.github.com/user/69631/repos?per_page=30&page=3&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/69631/repos?per_page=30&page=5&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/69631/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/69631/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:37:58 [[34MDEBUG[39M] Page 5: Fetched 30 repos
+2025-12-04 19:37:58 [[34MDEBUG[39M] Link header: <https://api.github.com/user/69631/repos?per_page=30&page=4&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/69631/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/69631/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/69631/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:37:58 [[34MDEBUG[39M] Page 6: Fetched 7 repos
+2025-12-04 19:37:58 [[34MDEBUG[39M] Link header: <https://api.github.com/user/69631/repos?per_page=30&page=5&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/69631/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:37:58 [[32MINFO[39M] ✓ Fetched 148 repos updated in last 6 months
+2025-12-04 19:38:07 [[32MINFO[39M] POST /repos/download-csv
+2025-12-04 19:38:07 [[32MINFO[39M] Generating CSV for facebook (148 repos)...
+2025-12-04 19:38:07 [[34MDEBUG[39M] Generated CSV with 148 rows
+2025-12-04 19:38:07 [[32MINFO[39M] CSV file sent: facebook_filtered_repos_20251204_193807.csv
+2025-12-04 19:38:07 [[32MINFO[39M] ✓ CSV downloaded for facebook
+2025-12-04 19:38:33 [[32MINFO[39M] GET /
+2025-12-04 19:42:55 [[32MINFO[39M] POST /repos/fetch
+2025-12-04 19:42:55 [[32MINFO[39M] Fetching repos for: google, Sort: stars
+2025-12-04 19:42:55 [[32MINFO[39M] Fetching repos for google...
+2025-12-04 19:42:56 [[34MDEBUG[39M] Page 1: Fetched 30 repos
+2025-12-04 19:42:56 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=2&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last"
+2025-12-04 19:42:57 [[34MDEBUG[39M] Page 2: Fetched 30 repos
+2025-12-04 19:42:57 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=3&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:42:58 [[34MDEBUG[39M] Page 3: Fetched 30 repos
+2025-12-04 19:42:58 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=2&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=4&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:42:58 [[34MDEBUG[39M] Page 4: Fetched 30 repos
+2025-12-04 19:42:58 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=3&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=5&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:42:59 [[34MDEBUG[39M] Page 5: Fetched 30 repos
+2025-12-04 19:42:59 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=4&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:00 [[34MDEBUG[39M] Page 6: Fetched 30 repos
+2025-12-04 19:43:00 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=5&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=7&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:01 [[34MDEBUG[39M] Page 7: Fetched 30 repos
+2025-12-04 19:43:01 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=6&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=8&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:02 [[34MDEBUG[39M] Page 8: Fetched 30 repos
+2025-12-04 19:43:02 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=7&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=9&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:03 [[34MDEBUG[39M] Page 9: Fetched 30 repos
+2025-12-04 19:43:03 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=8&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=10&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:03 [[34MDEBUG[39M] Page 10: Fetched 30 repos
+2025-12-04 19:43:03 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=9&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=11&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:04 [[34MDEBUG[39M] Page 11: Fetched 30 repos
+2025-12-04 19:43:04 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=10&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=12&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:05 [[34MDEBUG[39M] Page 12: Fetched 30 repos
+2025-12-04 19:43:05 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=11&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=13&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:06 [[34MDEBUG[39M] Page 13: Fetched 30 repos
+2025-12-04 19:43:06 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=12&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=14&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:07 [[34MDEBUG[39M] Page 14: Fetched 30 repos
+2025-12-04 19:43:07 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=13&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=15&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:08 [[34MDEBUG[39M] Page 15: Fetched 30 repos
+2025-12-04 19:43:08 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=14&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=16&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:09 [[34MDEBUG[39M] Page 16: Fetched 30 repos
+2025-12-04 19:43:09 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=15&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=17&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:10 [[34MDEBUG[39M] Page 17: Fetched 30 repos
+2025-12-04 19:43:10 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=16&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=18&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:11 [[34MDEBUG[39M] Page 18: Fetched 30 repos
+2025-12-04 19:43:11 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=17&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=19&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:11 [[34MDEBUG[39M] Page 19: Fetched 30 repos
+2025-12-04 19:43:11 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=18&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=20&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:12 [[34MDEBUG[39M] Page 20: Fetched 30 repos
+2025-12-04 19:43:12 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=19&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=21&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:13 [[34MDEBUG[39M] Page 21: Fetched 30 repos
+2025-12-04 19:43:13 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=20&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=22&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:15 [[34MDEBUG[39M] Page 22: Fetched 30 repos
+2025-12-04 19:43:15 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=21&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=23&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:15 [[34MDEBUG[39M] Page 23: Fetched 30 repos
+2025-12-04 19:43:15 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=22&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=24&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:16 [[34MDEBUG[39M] Page 24: Fetched 30 repos
+2025-12-04 19:43:16 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=23&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=25&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:17 [[34MDEBUG[39M] Page 25: Fetched 30 repos
+2025-12-04 19:43:17 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=24&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=26&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:18 [[34MDEBUG[39M] Page 26: Fetched 30 repos
+2025-12-04 19:43:18 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=25&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=27&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:19 [[34MDEBUG[39M] Page 27: Fetched 30 repos
+2025-12-04 19:43:19 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=26&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=28&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:20 [[34MDEBUG[39M] Page 28: Fetched 30 repos
+2025-12-04 19:43:20 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=27&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=29&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:20 [[34MDEBUG[39M] Page 29: Fetched 30 repos
+2025-12-04 19:43:20 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=28&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=30&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:21 [[34MDEBUG[39M] Page 30: Fetched 30 repos
+2025-12-04 19:43:21 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=29&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=31&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:22 [[34MDEBUG[39M] Page 31: Fetched 30 repos
+2025-12-04 19:43:22 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=30&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=32&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:23 [[34MDEBUG[39M] Page 32: Fetched 30 repos
+2025-12-04 19:43:23 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=31&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=33&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:23 [[34MDEBUG[39M] Page 33: Fetched 30 repos
+2025-12-04 19:43:23 [[34MDEBUG[39M] Link header: <https://api.github.com/user/1342004/repos?per_page=30&page=32&sort=updated&direction=desc>; rel="prev", <https://api.github.com/user/1342004/repos?per_page=30&page=34&sort=updated&direction=desc>; rel="next", <https://api.github.com/user/1342004/repos?per_page=30&page=94&sort=updated&direction=desc>; rel="last", <https://api.github.com/user/1342004/repos?per_page=30&page=1&sort=updated&direction=desc>; rel="first"
+2025-12-04 19:43:23 [[32MINFO[39M] ✓ Fetched 990 repos updated in last 6 months
+2025-12-04 19:43:41 [[32MINFO[39M] GET /
+2025-12-04 19:44:18 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 19:44:19 [[32MINFO[39M] ✓ Server running on http://localhost:3000
+2025-12-04 19:44:19 [[32MINFO[39M] ✓ Environment: development
+2025-12-04 19:47:41 [[32MINFO[39M] POST /repos/fetch
+2025-12-04 19:47:41 [[32MINFO[39M] Fetching repos for: Rohit, Sort: updated
+2025-12-04 19:47:41 [[32MINFO[39M] Fetching repos for Rohit...
+2025-12-04 19:47:42 [[34MDEBUG[39M] Page 1: Fetched 2 repos
+2025-12-04 19:47:42 [[34MDEBUG[39M] Link header: None
+2025-12-04 19:47:42 [[32MINFO[39M] ✓ Fetched 0 repos updated in last 6 months
+2025-12-04 19:47:46 [[32MINFO[39M] GET /
+2025-12-04 19:48:10 [[32MINFO[39M] POST /repos/fetch
+2025-12-04 19:48:10 [[32MINFO[39M] Fetching repos for: Rohit_Dharmadhikari-_fbs_work, Sort: default
+2025-12-04 19:48:10 [[32MINFO[39M] Fetching repos for Rohit_Dharmadhikari-_fbs_work...
+2025-12-04 19:48:10 [[31MERROR[39M] GitHub API error: Request failed with status code 404
+2025-12-04 19:48:10 [[31MERROR[39M] Error fetching repos: Request failed with status code 404
+2025-12-04 19:48:10 [[31MERROR[39M] Unhandled error: Request failed with status code 404
+2025-12-04 19:48:10 [[34MDEBUG[39M] Stack: AxiosError: Request failed with status code 404
+    at settle (C:\Users\babbe\OneDrive\Desktop\study\github-repo-fetcher\node_modules\axios\dist\node\axios.cjs:2106:12)
+    at Unzip.handleStreamEnd (C:\Users\babbe\OneDrive\Desktop\study\github-repo-fetcher\node_modules\axios\dist\node\axios.cjs:3491:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (C:\Users\babbe\OneDrive\Desktop\study\github-repo-fetcher\node_modules\axios\dist\node\axios.cjs:4731:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchRepositories (C:\Users\babbe\OneDrive\Desktop\study\github-repo-fetcher\services\githubService.js:56:26)
+    at async fetchRepos (C:\Users\babbe\OneDrive\Desktop\study\github-repo-fetcher\controllers\repoController.js:57:17)
+2025-12-04 19:48:13 [[32MINFO[39M] GET /
+2025-12-04 19:48:19 [[32MINFO[39M] POST /repos/fetch
+2025-12-04 19:48:19 [[32MINFO[39M] Fetching repos for: Rohit_Dharmadhikari-_fbs_work, Sort: default
+2025-12-04 19:48:19 [[32MINFO[39M] Fetching repos for Rohit_Dharmadhikari-_fbs_work...
+2025-12-04 19:48:19 [[31MERROR[39M] GitHub API error: Request failed with status code 404
+2025-12-04 19:48:19 [[31MERROR[39M] Error fetching repos: Request failed with status code 404
+2025-12-04 19:48:19 [[31MERROR[39M] Unhandled error: Request failed with status code 404
+2025-12-04 19:48:19 [[34MDEBUG[39M] Stack: AxiosError: Request failed with status code 404
+    at settle (C:\Users\babbe\OneDrive\Desktop\study\github-repo-fetcher\node_modules\axios\dist\node\axios.cjs:2106:12)
+    at Unzip.handleStreamEnd (C:\Users\babbe\OneDrive\Desktop\study\github-repo-fetcher\node_modules\axios\dist\node\axios.cjs:3491:11)
+    at Unzip.emit (node:events:508:28)
+    at endReadableNT (node:internal/streams/readable:1701:12)
+    at process.processTicksAndRejections (node:internal/process/task_queues:89:21)
+    at Axios.request (C:\Users\babbe\OneDrive\Desktop\study\github-repo-fetcher\node_modules\axios\dist\node\axios.cjs:4731:41)
+    at process.processTicksAndRejections (node:internal/process/task_queues:103:5)
+    at async fetchRepositories (C:\Users\babbe\OneDrive\Desktop\study\github-repo-fetcher\services\githubService.js:56:26)
+    at async fetchRepos (C:\Users\babbe\OneDrive\Desktop\study\github-repo-fetcher\controllers\repoController.js:57:17)
+2025-12-04 19:48:20 [[32MINFO[39M] GET /
+2025-12-04 19:48:32 [[32MINFO[39M] POST /repos/fetch
+2025-12-04 19:48:32 [[32MINFO[39M] Fetching repos for:  Rohitcd-47, Sort: default
+2025-12-04 19:48:32 [[32MINFO[39M] Fetching repos for Rohitcd-47...
+2025-12-04 19:48:32 [[34MDEBUG[39M] Page 1: Fetched 9 repos
+2025-12-04 19:48:32 [[34MDEBUG[39M] Link header: None
+2025-12-04 19:48:32 [[32MINFO[39M] ✓ Fetched 1 repos updated in last 6 months
+2025-12-04 19:48:44 [[32MINFO[39M] GET /
+2025-12-04 19:48:46 [[32MINFO[39M] GET /
+2025-12-04 21:42:18 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 21:42:18 [[32MINFO[39M] ✓ Server running on http://localhost:3000
+2025-12-04 21:42:18 [[32MINFO[39M] ✓ Environment: development
+2025-12-04 21:42:20 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 21:42:20 [[32MINFO[39M] ✓ Server running on http://localhost:3000
+2025-12-04 21:42:20 [[32MINFO[39M] ✓ Environment: development
+2025-12-04 21:42:21 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 21:42:21 [[32MINFO[39M] ✓ Server running on http://localhost:3000
+2025-12-04 21:42:21 [[32MINFO[39M] ✓ Environment: development
+2025-12-04 21:42:23 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 21:42:23 [[32MINFO[39M] ✓ Server running on http://localhost:3000
+2025-12-04 21:42:23 [[32MINFO[39M] ✓ Environment: development
+2025-12-04 21:42:26 [[34MDEBUG[39M] Logger initialized in development mode
+2025-12-04 21:42:26 [[32MINFO[39M] ✓ Server running on http://localhost:3000
+2025-12-04 21:42:26 [[32MINFO[39M] ✓ Environment: development
+2025-12-04 22:02:14 [[32MINFO[39M] GET /
+2025-12-04 22:02:15 [[32MINFO[39M] GET /repos/search
